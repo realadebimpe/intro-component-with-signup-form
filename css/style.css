@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root{
+/* ### Primary */
+
+--Red: hsl(0, 100%, 74%);
+--Green: hsl(154, 59%, 51%);
+
+/* ### Accent */
+
+--Blue: hsl(248, 32%, 49%);
+
+/* ### Neutral */
+
+--Dark-Blue: hsl(249, 10%, 26%); 
+--Grayish-Blue: hsl(246, 25%, 77%);
+
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper{
+    max-width: 375px;
+    height: 1000px;
+    background: url(/images/bg-intro-mobile.png), var(--Red);
+    padding: 0 24px 0 24px;
+}
+
+.header{
+    text-align: center;
+    color: white;
+}
+
+.learn{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-top: 90px;
+    margin-top: 0;
+}
+
+.see{
+    font-size:16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 24px;
+    max-width: 313px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.try-it{
+    color: white;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 16px;
+    background-color: var(--Blue);
+    border-radius: 10px;
+    max-width: 210px;
+    padding: 21px 75px 16px 79px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    box-shadow: 0px 8px 3px rgba(0, 0, 0, 0.25);
+}
+
+.price{
+    color: white;
+    font-weight: 200;
+}
+
+.form-cover{
+    background-color: white;
+    max-width: 327px;
+    height: 445px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 3px rgba(0, 0, 0, 0.25);
+}
+
+#form{
+    
+    color: var(--Dark-Blue);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input{
+    display: block;
+    width: 278px;
+    height: 55px;
+    border: 1px solid var(--Grayish-Blue);
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 31px;
+    padding: 18px;
+}
