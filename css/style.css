@@ -92,7 +92,7 @@ body{
 
 input{
     display: block;
-    width: 278px;
+    max-width: 278px;
     height: 55px;
     border: 1px solid var(--Grayish-Blue);
     border-radius: 6px;
@@ -100,6 +100,7 @@ input{
     margin: 0 auto;
     margin-bottom: 31px;
     padding: 18px;
+    width: 278px;
 }
 
 .claim{
@@ -112,7 +113,7 @@ input{
     padding: 17px 9px 17px 9px;
     border-radius: 6px;
     box-shadow: 0 6px 3px rgba(0, 0, 0, 0.25);
-    width: 278px;
+    max-width: 278px;
     
 }
 
@@ -131,4 +132,61 @@ input{
     font-weight: 500;
     color: var(--Red);
     
+}
+
+@media only screen and (min-width: 1440px){
+    #wrapper{
+        display: flex;
+        max-width: 1440px;
+        height: 800px;
+        background: url(/images/bg-intro-desktop.png), var(--Red);
+    }
+
+    
+    .learn{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 56px;
+        width: 426px;
+        height: 112px;
+        padding: 298px 0 0 136px;
+    }
+
+    .see{
+    max-width: 500px;
+    text-align: left;
+    padding-left: 136px;
+    }
+
+    .signup{
+        padding-left: 150px;
+        padding-bottom: 121px;
+    }
+
+
+    .try-it{
+     
+        font-size: 16px;
+        width: 328px;
+        margin-top: 121px;
+        padding: 16px 102px 16px 102px;
+      
+    }
+
+    .price{
+        color: white;
+        font-weight: 100;
+    }
+    }
+
+    .form-cover{
+        max-width: 540px;
+        height: 474px;
+        /* padding: 40px; */
+       
+    }
+
+    #form{
+
+    }
 }
