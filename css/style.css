@@ -50,7 +50,7 @@ body{
     font-weight: 500;
     line-height: 26px;
     margin-top: 24px;
-    max-width: 313px;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 64px;
 }
@@ -63,8 +63,8 @@ body{
     font-size: 16px;
     background-color: var(--Blue);
     border-radius: 10px;
-    max-width: 322px;
-    padding: 21px 75px 16px 79px;
+    display: block;
+    padding: 18px 0;
     margin-bottom: 22px;
     box-shadow: 0px 8px 3px rgba(0, 0, 0, 0.25);
 }
@@ -72,19 +72,17 @@ body{
 .price{
     color: white;
     font-weight: 200;
+    display: block;
 }
 
 .form-cover{
     background-color: white;
-    max-width: 327px;
-    height: 445px;
-    padding: 20px;
+    padding: 20px 0 20px;
     border-radius: 10px;
     box-shadow: 0px 8px 3px rgba(0, 0, 0, 0.25);
 }
 
 #form{
-    
     color: var(--Dark-Blue);
     font-size: 14px;
     font-weight: 500;
@@ -92,28 +90,28 @@ body{
 
 input{
     display: block;
-    max-width: 278px;
+    width: 85%;
     height: 55px;
     border: 1px solid var(--Grayish-Blue);
     border-radius: 6px;
     box-sizing: border-box;
-    margin: 0 auto;
-    margin-bottom: 31px;
-    padding: 18px;
-    width: 278px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    padding-left: 20px; 
 }
 
 .claim{
-    text-align: center;
-    margin: 0 auto;
+    display: block;
+    margin: 16px auto;
     background-color: var(--Green);
     font-weight: 500;
     font-size: 16px;
     color: white;
     padding: 17px 9px 17px 9px;
     border-radius: 6px;
+    border: none;
     box-shadow: 0 6px 3px rgba(0, 0, 0, 0.25);
-    max-width: 278px;
+    width: 80%;
     
 }
 
@@ -121,7 +119,7 @@ input{
     font-size: 12px;
     margin: 0 auto;
     color: var(--Grayish-Blue);
-    width: 248px;
+    width: 240px;
     height: 45px;
     text-align: center;
     line-height: 22px;
@@ -147,19 +145,19 @@ input{
         font-weight: 700;
         font-size: 50px;
         line-height: 56px;
-        width: 426px;
-        height: 112px;
         padding: 298px 0 0 136px;
+        text-align: left;
     }
 
     .see{
-    max-width: 500px;
     text-align: left;
     padding-left: 136px;
+    margin: 0;
+    width: 450px;
     }
 
     .signup{
-        padding-left: 150px;
+        padding-right: 150px;
         padding-bottom: 121px;
     }
 
@@ -167,26 +165,38 @@ input{
     .try-it{
      
         font-size: 16px;
-        width: 328px;
         margin-top: 121px;
-        padding: 16px 102px 16px 102px;
+       
       
     }
 
     .price{
         color: white;
         font-weight: 100;
+        display: inline;
     }
-    }
+    
 
     .form-cover{
-        max-width: 540px;
-        height: 474px;
-        /* padding: 40px; */
+        width: 540px;
+        
        
     }
 
-    #form{
+    input{
+        height: 56px;
+        margin-bottom: 20px;
+        padding: 15px 0 15px 9px;
+    }
 
+    .claim{
+        width: 460px;
+        margin-top: 20px;
+    }
+
+    .agree{
+        width: 387px;
+        height: 23px;
+        margin-top: 14px;
     }
 }
