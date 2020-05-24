@@ -25,21 +25,43 @@
 
             <div class="form-cover">
                 <form action="#" id="form">
-                    <input type="text" name="firstname" placeholder="First name">
-                    <input type="text" name="lastname" placeholder="Last name" id="lname">
-                    <input type="email" name="email" placeholder="Email" id="email">
-                    <input type="password" name="pwd" placeholder="Password" id="password">
+
+                    <div class="form-control">
+                        <input id="firstname" type="text" name="firstname" placeholder="First name" >
+                        <img src="/images/icon-error.svg">
+                        <small>First name cannot be empty</small>
+                    </div>
+
+                    <div class="form-control">
+                        <input id="lastname" type="text" name="lastname" placeholder="Last name" >
+                        <img src="/images/icon-error.svg">
+                        <small>Last name cannot be empty</small>
+                    </div>
+
+                    <div class="form-control">
+                        <input id="email" type="email" name="email" placeholder="Email" >
+                        <img src="/images/icon-error.svg">
+                        <small>Email cannot be empty</small>
+                    </div>
+
+                    <div class="form-control">
+                        <input id="password" type="password" name="pwd" placeholder="Password" >
+                        <img src="/images/icon-error.svg">
+                        <small>Password cannot be empty</small>
+                    </div>
 
                 </form>
 
-                <button class="claim">CLAIM YOUR FREE TRAIL</button>
-                <p class="agree">By clicking the buton, you are agreeing to our<span class="terms"> Term and
-                        Services</span></p>
+                <button class="claim" id="submit">CLAIM YOUR FREE TRAIL</button>
+                <p class="agree">By clicking the buton, you are agreeing to our<span><a href="#" class="terms"> Term and
+                            Services</a></span></p>
             </div>
 
         </section>
 
     </div>
 </body>
+
+<script src="/js/script.js"></script>
 
 </html>
